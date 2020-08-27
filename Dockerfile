@@ -21,7 +21,7 @@ LABEL vendor="Apache OpenMeetings dev team"
 LABEL version="${OM_VERSION}"
 LABEL maintainer=dev@openmeetings.apache.org
 
-ARG BUILD_TYPE="min"
+ARG BUILD_TYPE="full"
 ENV OM_TYPE=${BUILD_TYPE}
 ENV DB_ROOT_PASS '12345'
 ENV OM_USER="om_admin"
